@@ -14,7 +14,7 @@ int main(){
     {
         printf("senha valida!\n");}
 
-    for (; senha != login;)
+    for (senha != login;)
     {
         printf ("senha invalida!\n");
         scanf("%d", &login);
